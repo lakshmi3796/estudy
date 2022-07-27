@@ -1,0 +1,47 @@
+#btn{
+		margin-left: 190px;
+		margin-top: 15px;
+		border-radius: 10px;
+		font-size: 16px;
+		background-color: blue;
+		color: white;
+		width:100px;
+		padding: 5px;
+		height: 40px;
+	}
+	#btn:hover{
+		color: blue;
+		background-color: white;
+	}
+	.h4{
+		text-align: center;
+	}
+        .container{
+        	border-radius: 10px;
+        	margin-top: 10px;
+            height: 550px;
+            max-height: 600px;
+            background-color: lightgray;
+            width:500px;
+        }
+        #login_btn{
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid black;
+        }
+        .mb-3{
+			height: 50px;
+			margin-left: 20px;
+        }
+        .form-control{
+        	border-radius: 10px;
+        	margin: 0px 8px !important;
+        	width:91%;
+        }
+        .form-label{
+        	margin: 10px 0px 0px 10px !important;
+        }
+        #member{
+            margin-left: 30px;
+            margin-top: 5px;
+        }

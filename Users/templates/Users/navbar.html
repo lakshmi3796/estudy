@@ -1,0 +1,32 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <img src="{% static 'Users/images/logo.png' %}" style="height: 60px;width: 60px; border-radius:40%;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url "homepage" %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href='Users/about_us.html'>About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href='Users/contact_us.html'>Contact Us</a>
+        </li>
+      </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">{{username}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url "login" %}">Logout</a>
+        </li>
+      </ul> 
+      
+
+    </div>
+  </div>
+</nav>

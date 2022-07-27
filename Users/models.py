@@ -27,6 +27,7 @@ class Student(models.Model):
                                 help_text='Password of Student')
     created_on = models.DateTimeField(default=timezone.now)
     last_login_on = models.DateTimeField(default=timezone.now)
+    is_active = models.BooleanField(default=False)
 
     def __str__(self):
         return str(self.username)
